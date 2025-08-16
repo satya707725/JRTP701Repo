@@ -12,4 +12,8 @@ class FirstProgram {
       int cube = num * num * num;
       System.out.println(cube);
    }
+   public void printSquare(int num){
+      int square = num * num;
+      System.out.println(square);
+   }
 }
