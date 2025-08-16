@@ -7,4 +7,9 @@ class FirstProgram {
    public static void m1(){
       System.out.println("M1 method");
    }
+
+   public static void printCube(int num){
+      int cube = num * num * num;
+      System.out.println(cube);
+   }
 }
